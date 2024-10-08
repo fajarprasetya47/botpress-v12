@@ -28,7 +28,11 @@ module.exports = {
     '**/node_modules/**',
     '**/dist/**'
   ],
-  plugins: ['eslint-plugin-import', 'eslint-plugin-jsdoc', '@typescript-eslint'],
+  plugins: [
+    'eslint-plugin-import', 
+    // 'eslint-plugin-jsdoc', 
+    '@typescript-eslint'
+  ],
   rules: {
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',

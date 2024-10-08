@@ -1,0 +1,16 @@
+-- Use Node 12 via NVM --
+nvm install 12
+nvm use 12
+
+-- Install Yarn Globally --
+npm install -g yarn
+
+-- Initials --
+yarn install
+yarn build
+
+-- Start Server --
+yarn start
+
+-- Start Debugging --
+yarn watch

@@ -3,7 +3,7 @@
   "version": "12.31.8",
   "description": "The world's most powerful conversational engine",
   "engines": {
-    "node": "^12"
+    "node": ">=12"
   },
   "main": "index.js",
   "repository": "https://github.com/botpress/v12.git",
@@ -111,7 +111,6 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsdoc": "^36.1.0",
     "expect-puppeteer": "^6.1.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.0.1",
